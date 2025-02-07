@@ -6,17 +6,21 @@
 }
 
 body {
-    // background-image: url("station.jpg");
-    background-color: #FFE8A0;
+    background-color: #F6F2CE;
     background-size: cover;
     font-family: "Pixelify Sans", serif;
     font-weight: bold;
     text-align: center;
+    color: black;
 }
 
 
 .container {
-    width: 100%
+    background-color: #8FE0EC;
+    width: 40%;
+    border: 1;
+    border-radius: 6px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -39,18 +43,17 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    width: 80%; /* Adjusts based on screen size */
+    max-width: 200px; /* Limits the max width on large screens */
 }
 
-#increment-btn {
-    background: #FFDDF0;
-}
-
+#increment-btn,
 #save-btn {
-    background: #FFDDF0;
+    background: #FFFBF4;
 }
 
 #increment-btn:hover,
 #save-btn:hover {
-    background-color: #FBB6F9;
+    background-color: #D6EEFC;
 }
 
